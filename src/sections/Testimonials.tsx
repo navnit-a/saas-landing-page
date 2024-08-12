@@ -94,9 +94,7 @@ const TestimonialColumn = (props: {
           />
           <div className="flex flex-col">
             <div className="font-medium leading-5 tracking-tight">{name}</div>
-            <div leading-5 tracking-tight>
-              {username}
-            </div>
+            <div className="leading-5 tracking-tight">{username}</div>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ import {
   useScroll,
   useTransform,
 } from 'framer-motion';
-import { use, useRef } from 'react';
+import { useRef } from 'react';
 
 export const Hero = () => {
   const heroRef = useRef(null);
