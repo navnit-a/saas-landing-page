@@ -11,7 +11,7 @@ export const Hero = () => {
         <div className="items-center md:flex">
           <div className="md:w-[478px]">
             <div className="tag">Version 2.0 is here</div>
-            <h1 className="tracking-tigher mt-6 bg-gradient-to-b from-black to-[#001E80] bg-clip-text text-5xl font-bold text-transparent md:text-7xl">
+            <h1 className="mt-6 bg-gradient-to-b from-black to-[#001E80] bg-clip-text text-5xl font-bold tracking-tighter text-transparent md:text-7xl">
               Pathway to productivity
             </h1>
             <p className="mt-6 text-xl tracking-tight text-[#010D3E]">
@@ -23,7 +23,7 @@ export const Hero = () => {
               <button className="btn btn-primary">Get for free</button>
               <button className="btn btn-text gap-1">
                 <span>Learn more</span>
-                <ArrowIcon className="inline-flex h-5 w-5" />
+                <ArrowIcon className="inline-flex size-5" />
               </button>
             </div>
           </div>
