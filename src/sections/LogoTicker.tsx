@@ -36,6 +36,7 @@ export const LogoTicker = () => {
           >
             {logos.concat(logos).map((logo, idx) => (
               <Image
+                key={idx}
                 src={logo}
                 alt={`logo ${idx + 1}`}
                 className="h-8 w-auto"
